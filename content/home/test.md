@@ -9,9 +9,9 @@ view= 1
 height = "40vh"
 
 title = "TestNewBlank"
-content= "Lorem Ipsum this is ome texst and i am making some test"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
 +++
+Hi this is some new content coming to you Live!

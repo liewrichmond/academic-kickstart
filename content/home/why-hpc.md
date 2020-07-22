@@ -14,8 +14,7 @@ title = "Why HPC?"
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
 +++
-
+{{< youtube PuCx50FdSic >}}
 {{< youtube qx2dRIQXnbs >}}
-{{< youtube RSQg_URCHKI >}}
 {{< youtube RSQg_URCHKI >}}
 

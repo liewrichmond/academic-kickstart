@@ -33,4 +33,6 @@ height = "60vh"
   cta_url = "https://sourcethemes.com/academic/"
   cta_icon_pack = "fas"
   cta_icon = "graduation-cap"
+  
+  css_style = "color: green;"
 +++

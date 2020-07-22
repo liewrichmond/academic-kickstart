@@ -12,6 +12,6 @@ title = "TestNewBlank"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 +++
 Hi this is some new content coming to you Live!

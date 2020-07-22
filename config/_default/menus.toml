@@ -5,25 +5,19 @@
 
 [[main]]
   name = "Home"
-  url = "#about"
+  url = "#about-goodwill"
   weight = 10
 
   
 [[main]]
-  name = "Team"
-  url = "#posts"
+  name = "Publications"
+  url = "#publications"
   weight = 20
 
-
 [[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
-
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
+  name = "Team"
+  url = "#people"
+  weight = 20
 
 [[main]]
   name = "Contact"

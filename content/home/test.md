@@ -8,6 +8,7 @@ weight = 2  # Order that this section will appear in.
 height = "40vh"
 
 title = "TestNewBlank"
+content= "Lorem Ipsum this is ome texst and i am making some test"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

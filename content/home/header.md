@@ -32,4 +32,4 @@ title = "Welcome to Goodwill Computing Labs"
   text_color_light = true
 +++
 
-Where Computing Meets Labs
+This should change

@@ -1,15 +1,38 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
 <div class="blocks">
-    <div class="block-one">
-        <p class="block-title">One</p>
+    <div class=" block-child block-one">
+        <h1 class="block-title">
+            <span class="fas fa-stopwatch"></span>
+        </h1>
+        <p>
+            Lorem Ipsum
+        </p>
     </div>
-    <div class="block-two">
-        <p class="block-title">Two</p>
+    <div class="block-child block-two">
+        <h1 class="block-title">
+            <span class="fas fa-atom"></span>
+        </h1>
+        <p>
+            Lorem Ipsum
+        </p>
     </div>
-    <div class="block-three">
-        <p class="block-title">Three</p>
+    <div class="block-child block-three">
+        <h1 class="block-title">
+            <span class="fas fa-balance-scale"></span>
+        </h1>
+        <p>
+            Lorem Ipsum
+        </p>
     </div>
-    <div class="block-four">
-        <p class="block-title">Four</p>
+    <div class="block-child block-four">
+        <h1 class="block-title">
+            <span class="fas fa-code"></span>
+        </h1>
+        <p>
+            Lorem Ipsum
+        </p>
     </div>
 </div>
 
@@ -17,5 +40,49 @@
     .wg-blocks > .container {
         margin-left: 0;
         padding-left: 0;
+    }
+
+    .block-child > p {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .main-banner {
+        height: 40vh;
+    }
+
+    .blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        grid-gap: 0px;
+        width:99vw;
+        height: 40vh;
+    }
+    .block-one {
+        grid-column: 1 / 2;
+        grid-row: 1;
+        background-color: hsl(198, 94%, 14%);
+        background-image: url('../../.././static/img/block1.jpg');
+    }
+    .block-two { 
+        grid-column: 2 / 3;
+        grid-row: 1;
+        background-color: hsl(55, 60%, 44%);
+    }
+    .block-three {
+        grid-column: 3 / 4;
+        grid-row: 1;
+        background-color: hsl(195, 61%, 46%);
+    }
+    .block-four {
+        grid-column: 4 / 5;
+        grid-row: 1;
+        background-color: hsl(350, 97%, 12%);
+    }
+
+    .block-title {
+        text-align: center;
+        padding-top: 50px;
+        color: white;
     }
 </style>

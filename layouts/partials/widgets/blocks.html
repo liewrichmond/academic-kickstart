@@ -3,35 +3,39 @@
 
 <div class="blocks">
     <div class=" block-child block-one">
-        <h1 class="block-title">
-            <span class="fas fa-stopwatch"></span>
-        </h1>
-        <p>
-            Lorem Ipsum
+        <p class="block-title">
+            <span class="fas fa-stopwatch icon"></span>
+        </p>
+        <p class="block-text">
+            Lorem Ipsum <br/><br/>
+            <span><button class="block-button">Take Me There</button></span>
         </p>
     </div>
     <div class="block-child block-two">
-        <h1 class="block-title">
+        <p class="block-title">
             <span class="fas fa-atom"></span>
-        </h1>
-        <p>
-            Lorem Ipsum
+        </p>
+        <p class="block-text">
+            Lorem Ipsum<br/><br/>
+            <span><button class="block-button">Take Me There</button></span>
         </p>
     </div>
     <div class="block-child block-three">
-        <h1 class="block-title">
+        <p class="block-title">
             <span class="fas fa-balance-scale"></span>
-        </h1>
-        <p>
-            Lorem Ipsum
+        </p>
+        <p class="block-text">
+            Lorem Ipsum<br/><br/>
+            <span><button class="block-button">Take Me There</button></span>
         </p>
     </div>
     <div class="block-child block-four">
-        <h1 class="block-title">
+        <p class="block-title">
             <span class="fas fa-code"></span>
-        </h1>
-        <p>
-            Lorem Ipsum
+        </p>
+        <p class="block-text">
+            Lorem Ipsum<br/><br/>
+            <span><button class="block-button">Take Me There</button></span>
         </p>
     </div>
 </div>
@@ -42,9 +46,25 @@
         padding-left: 0;
     }
 
-    .block-child > p {
+    .block-title {
+        text-align: center;
+        padding-top: 50px;
+        color: hsl(0, 0%, 94%);
+        font-size: 50px;
+        font-weight: 10;
+    }
+
+    .block-text {
         text-align: center;
         padding-top: 10px;
+    }
+
+    .block-button {
+        border-radius: 4px;
+        margin-top: 50x;
+        background-color: white;
+        padding: 12px 28px;
+        border:none;
     }
 
     .main-banner {
@@ -84,11 +104,5 @@
         background-image: linear-gradient(hsl(350, 97%, 12%), rgba(0, 0, 0, 0.6)),  url(https://goodwillcomputing.netlify.app/img/block4.jpg);
         background-color: hsl(350, 97%, 12%);
         background-size: cover;
-    }
-
-    .block-title {
-        text-align: center;
-        padding-top: 50px;
-        color: white;
     }
 </style>

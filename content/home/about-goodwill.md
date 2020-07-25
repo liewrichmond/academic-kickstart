@@ -2,8 +2,8 @@
 # test widget.
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 2  # Order that this section will appear in.
+active = true  # Activate this widget? true/false
+weight = 3  # Order that this section will appear in.
 view= 1
 
 height = "40vh"

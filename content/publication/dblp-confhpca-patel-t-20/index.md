@@ -9,5 +9,9 @@ featured: false
 publication: "*IEEE International Symposium on High Performance Computer Architecture, HPCA 2020, San Diego, CA, USA, February 22-26, 2020*"
 url_pdf: "https://doi.org/10.1109/HPCA47549.2020.00025"
 doi: "10.1109/HPCA47549.2020.00025"
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
 ---
 

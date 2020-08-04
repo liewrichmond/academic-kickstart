@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Devesh Tiwari
+title: Baolin Li
 
 # Username (this should match the folder name)
 authors:
-- admin
+- baolin
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor and Director, Goodwill Computing Lab
+role: Ph.D. Student (Fall 2019 – Present)
 
 # Organizations/Affiliations
 organizations:
@@ -27,15 +27,13 @@ interests:
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Ph.D. in Computer Engineering
+    institution: Northeastern University
+    year: Present
+  - course: B.A.Sc. with Honours in Electrical Engineering
+    institution: University of Toronto
+    year: 2017
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -66,7 +64,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigators
+- Researchers
 ---
 
-Devesh’s research focuses on innovating new methods to improve efficiency, scalability, and cost-effectiveness of large-scale parallel computing systems. Before joining Northeastern, Devesh was a staff scientist at the Oak Ridge National Laboratory, a flagship multiprogram science and technology national laboratory of the United States Department of Energy (DOE). Devesh earned his Ph.D. in Electrical and Computer Engineering from North Carolina State University and B.S. degree in Computer Science and Engineering from Indian Institute of Technology (IIT) Kanpur in India.
+Baolin joined Northeastern University as a Computer Engineering PhD student. He is advised by professor Devesh Tiwari and his research interests include cloud computing, GPU computing and deep learning scheduling. Before joining Northeastern University, he received his Master of Science degree from the University of Texas at Austin and worked as a SoC validation engineer for 2 years.

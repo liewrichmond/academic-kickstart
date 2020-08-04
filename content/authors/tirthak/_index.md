@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Devesh Tiwari
+title: Tirthak Patel
 
 # Username (this should match the folder name)
 authors:
-- admin
+- tirthak
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor and Director, Goodwill Computing Lab
+role: Ph.D. Candidate (Fall 2017 – Present)
 
 # Organizations/Affiliations
 organizations:
@@ -27,15 +27,13 @@ interests:
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Ph.D. in Computer Engineering
+    institution: Northeastern University
+    year: Present
+  - course: B.A.Sc. with Honours in Electrical Engineering
+    institution: University of Toronto
+    year: 2017
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -66,7 +64,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigators
+- Researchers
 ---
 
-Devesh’s research focuses on innovating new methods to improve efficiency, scalability, and cost-effectiveness of large-scale parallel computing systems. Before joining Northeastern, Devesh was a staff scientist at the Oak Ridge National Laboratory, a flagship multiprogram science and technology national laboratory of the United States Department of Energy (DOE). Devesh earned his Ph.D. in Electrical and Computer Engineering from North Carolina State University and B.S. degree in Computer Science and Engineering from Indian Institute of Technology (IIT) Kanpur in India.
+Tirthak is a Computer Engineering Ph.D. Candidate at Northeastern University. He works with Professor Devesh Tiwari on projects related to large-scale high-performance computing (HPC). His research mainly relates to resource management and optimization in large-scale HPC computational and storage sub-systems. He is especially interested in exploring the trade-offs between performance, fairness, energy-efficiency, and resiliency. He is a recipient of the NSERC (Canada’s NSF) Alexander Graham Bell Canada Graduate Scholarship (CGS D-3) award. Website: http://ece.neu.edu/~tirthak.

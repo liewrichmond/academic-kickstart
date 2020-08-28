@@ -7,11 +7,10 @@
   name = "Home"
   url = "#header"
   weight = 10
-
   
 [[main]]
   name = "Publications"
-  url = "#publications"
+  url = "/publication/"
   weight = 20
 
 [[main]]

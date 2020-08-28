@@ -7,9 +7,9 @@
             <span class="fas fa-question"></span>
         </p>
         <p class="block-text">
-            Why HPC? <br/><br/>
+            Domain of Research <br/><br/>
                 <span>
-                    <a href="{{ "/#why-hpc" | relLangURL }}">
+                    <a href="{{ "/#about-goodwill" | relLangURL }}">
                         <button class="block-button" >
                             Learn More<i class="fas fa-arrow-right"></i>
                         </button>
@@ -49,19 +49,50 @@
     </div>
     <div class="block-child block-four">
         <p class="block-title">
+            <span class="fas fa-newspaper"></span>
+        </p>
+        <p class="block-text">
+            News<br/><br/>
+                <span>
+                    <a href="{{ "/post" | relLangURL }}">                    
+                        <button class="block-button">
+                            Catch Up<i class="fas fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </span>
+        </p>
+    </div>
+    <div class="block-child block-five">
+        <p class="block-title">
             <span class="fas fa-handshake"></span>
+        </p>
+        <p class="block-text">
+            Outreach<br/><br/>
+                <span>
+                    <a href="{{ "/#outreach" | relLangURL }}">                    
+                        <button class="block-button">
+                            See Gallery<i class="fas fa-arrow-right"></i>
+                        </button>
+                    </a>
+                </span>
+        </p>
+    </div>
+    <div class="block-child block-six">
+        <p class="block-title">
+            <span class="fas fa-address-book"></span>
         </p>
         <p class="block-text">
             Contact Us<br/><br/>
                 <span>
                     <a href="{{ "/#contact" | relLangURL }}">                    
                         <button class="block-button">
-                            Get Involved<i class="fas fa-arrow-right"></i>
+                            Join The Team<i class="fas fa-arrow-right"></i>
                         </button>
                     </a>
                 </span>
         </p>
     </div>
+
 </div>
 
 <style>
@@ -134,6 +165,20 @@
         background-color: hsl(350, 97%, 12%);
         background-size: cover;
     }
+    .block-five {
+        grid-column: 5 / 6;
+        grid-row: 1;
+        background-image: linear-gradient(hsl(198, 94%, 14%), rgba(0, 0, 0, 0.6)),  url(https://goodwillcomputing.netlify.app/img/block1.jpg);
+        background-size: cover;
+    }
+    .block-six {
+        grid-column: 6 / 7;
+        grid-row: 1;
+        background-image: linear-gradient(hsl(55, 60%, 44%), rgba(0, 0, 0, 0.6)),  url(https://goodwillcomputing.netlify.app/img/block2.jpg);
+        background-color: hsl(55, 60%, 44%);
+        background-size: cover;
+    }
+
 </style>
 
 <script>

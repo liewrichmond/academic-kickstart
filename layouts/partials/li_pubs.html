@@ -40,7 +40,7 @@
       </div>
       <div class="col-10">
         <i class="{{$icon_pack}} {{$icon}} pub-icon" aria-hidden="true"></i>
-        <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+        <a href="{{$link}}" class="article-title"{{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
         {{ if eq $item.Type "talk" }}
         <div class="article-metadata">
           <span>
